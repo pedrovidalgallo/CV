@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: pedrovidalgallo/CV
   branch: main
 
 media_folder: "img/uploads"
@@ -10,8 +11,14 @@ collections:
     label: "Páginas"
     files:
       - file: "index.html"
-        label: "Inicio"
+        label: "Página principal"
         name: "index"
         fields:
           - {label: "Título", name: "title", widget: "string"}
           - {label: "Contenido", name: "body", widget: "text"}
+      - file: "blog.html"
+        label: "Página de blog"
+        name: "blog"
+        fields:
+          - {label: "Título del blog", name: "title", widget: "string"}
+          - {label: "Contenido del blog", name: "body", widget: "text"}
