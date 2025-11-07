@@ -2,6 +2,8 @@ backend:
   name: github
   repo: pedrovidalgallo/CV
   branch: main
+  auth_type: implicit
+  app_id: 1kCvPO3QGwiHzoKvCvxRxI-5_3vOxk4-J4q8mKIHLP0
 
 media_folder: "img/uploads"
 public_folder: "/img/uploads"
